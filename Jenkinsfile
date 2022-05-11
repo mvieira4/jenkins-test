@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        git(url: 'https://github.com/mvieira4/jenkins-test.git', branch: 'main')
+        git(url: 'https://github.com/mvieira424/jenkins-lab.git', branch: 'main')
         sh 'python3 test.py'
       }
     }
